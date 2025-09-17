@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Mark Finder</title>
+</head>
+
+<body>
+    <script>
+
+        //student mark sheet
+        let studentNumber = prompt("Enter student mark:");
+        studentNumber = parseFloat(studentNumber);
+
+
+        if (studentNumber >= 80 && studentNumber <= 100) {
+            alert("A+");
+        }
+
+        else if (studentNumber >= 70 && studentNumber < 80) {
+            alert("A");
+        }
+
+        else if (studentNumber >= 60 && studentNumber < 70) {
+            alert("B");
+        }
+
+        else if (studentNumber >= 50 && studentNumber < 60) {
+            alert("C");
+        }
+
+        else if (studentNumber >= 40 && studentNumber < 50) {
+            alert("D");
+        }
+
+        else if (studentNumber >= 33 && studentNumber < 40) {
+            alert("E");
+        }
+
+        else if (studentNumber >= 0 && studentNumber < 33) {
+            alert("F");
+        }
+
+        else {
+            alert("Invalid mark, Try agin.")
+        }
+
+
+        //the code is end here.
+    </script>
+</body>
+
+</html>

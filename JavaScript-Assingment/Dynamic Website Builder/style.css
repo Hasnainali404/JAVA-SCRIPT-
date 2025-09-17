@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+body{
+    background: #181717;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 70%;
+    height: auto;
+    padding: 1px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.contant-1{
+    width: 23.9%;
+    height: 127px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contant-1 img{
+    width: 100%;
+    height: 127px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.contant-1 .time-durition{
+    position: absolute;
+    bottom: 12px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.contant-2{
+    width: 75%;
+    height: 100px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contant-2 .contant-title{
+    color: white;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.contant-2 .contant-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 7px;
+    gap: 10px;
+}
+
+.contant-2 .chanel-name{
+    font-weight: 550;
+    font-size: 0.97rem;
+    text-transform: capitalize;
+    color: gray;
+    margin-top: 6px;
+}
+
+.contant-2 .chanel-name:hover{
+    color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.contant-2 .contant-data .chanel-name, .views, .date{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.contant-2 .contant-data span{
+    color: gray;
+    /* margin: 0 4px; */
+    vertical-align: middle;
+}

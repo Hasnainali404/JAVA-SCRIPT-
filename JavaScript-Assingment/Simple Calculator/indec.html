@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculater</title>
+</head>
+
+<body>
+    <script>
+
+        //simple calculater.
+        let input1 = +prompt("Enter first number:");
+        let sings  = prompt("Enter sings:")
+        let input2 = +prompt("Enter second number:");
+
+
+
+        if (sings == '+') {
+            alert(input1 + input2);
+        }
+
+        else if (sings == '-') {
+            alert(input1 - input2);
+        }
+
+        else if (sings == '/') {
+            alert(input1 / input2)
+        }
+
+        else if (sings == '*') {
+            alert(input1 * input2)
+        }
+
+        else if (sings == '%') {
+            alert(input1 % input2)
+        }
+
+        else{
+            alert("Invalid value, Try agin.")
+        }
+
+
+
+        //the code ends here.
+    </script>
+</body>
+
+</html>
