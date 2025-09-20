@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding palindrome value</title>
+    <meta name="description" content="A simple web page to find palindrome values.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Palindrome Checker</h1>
+            <form id="palindromeForm" onsubmit="event.preventDefault(); checkPalindrome();">
+                <label for="inputValue">Enter a value:</label>
+                <input title="Please fill out this first" type="text" id="inputValue" name="inputValue" required>
+                <div id="result"></div>
+                <button type="submit" title="Check the value ">Check</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
